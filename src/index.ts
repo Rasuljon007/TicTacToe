@@ -79,11 +79,9 @@ function handleTab(e: MouseEvent) {
   tabBtn.classList.add("active");
   tabBtn.disabled = true;
 }
-
 function addListeners() {
   tabs.forEach((tab) => tab.addEventListener("click", handleTab));
 }
-
 const resetTimer: () => void = () => {
   clearInterval(interval);
   startBtn.textContent = "Start";
