@@ -89,7 +89,6 @@ const resetTimer: () => void = () => {
   pauseResumeTimer()
   updateTimer();
 };
-
 startBtn.addEventListener("click", pauseResumeTimer);
 resetBtn.addEventListener("click", resetTimer);
 
