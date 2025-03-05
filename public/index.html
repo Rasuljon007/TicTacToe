@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link rel="stylesheet" href="../build/index.css" /> -->
+    <link rel="stylesheet" href="../build/pomodoro.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="title">Pomodoro Timer</h1>
+      <hr />
+      <div
+        class="border-b border-gray-200 text-center text-sm font-medium text-gray-500 dark:border-gray-700 dark:text-gray-400"
+      >
+        <div class="-mb-px flex flex-wrap">
+          <button class="tab active" id="pomodoro">Pomodoro</button>
+          <button class="tab" id="short-break">Short-break</button>
+          <button class="tab" id="long-break">Long-break</button>
+        </div>
+      </div>
+      <hr />
+      <p class="timer" id="timer">25:00</p>
+      <div class="button-wrapper">
+        <button id="start">Start</button>
+        <button class="none" id="reset">⏭</button>
+      </div>
+    </div>
+  </body>
+  <script src="../build/index.js"></script>
+</html>
